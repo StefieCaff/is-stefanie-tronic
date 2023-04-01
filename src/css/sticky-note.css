@@ -2,6 +2,9 @@
 .sticky-container {
     max-width: 270px;
     position: relative;
+    top: 40;
+    left: 60;
+    transform: rotate(-3deg);
 }
 
 .sticky-outer {
@@ -21,8 +24,8 @@
 
 /* Shadow behind the sticky note */
 .sticky:before {
-    box-shadow: -2px 2px 20px 1 rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: -2px 2px 25px 1 rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.28);
     content: '';
     width: 90%;
     left: 5px;

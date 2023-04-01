@@ -1,0 +1,8 @@
+footer {
+width: 100vw;
+height: 250px;
+
+  background-image: url(../images/tronic.png);
+  background-size: 100vw 250px;
+  position: fixed;
+}
