@@ -1,0 +1,2 @@
+.questions{max-width:550px;height:650px;width:80%;background:#fff;padding:24px;font-family:Rajdhani,sans-serif;box-shadow:0 0 10px rgba(0,0,0,.3)}.questions-text{margin:20px}.questions:before,.questions:after{content:"";height:98%;width:100%;z-index:-1;position:absolute}.questions:before{background:#fafafa;top:4px;left:-5px;transform:rotate(-2.5deg);box-shadow:0 0 8px rgba(0,0,0,.2)}.questions:after{background:#f6f6f6;top:1px;right:-3px;transform:rotate(1.4deg);box-shadow:0 0 3px rgba(0,0,0,.2)}
+/*# sourceMappingURL=index.54732a7b.css.map */
