@@ -1,24 +1,29 @@
 .button-wrapper {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0 50px 0;
+    margin: 0 30px;
 }
 
 button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 15px 25px;
+    padding: 25px 25px;
     border: none;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;
+    color: rgba(96, 94, 94, 0.618);
     box-shadow: 0 0 20px #eee;
+    transition: background-image 9s, background-position 9s;
     border-radius: 10px;
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
 }
 
 button:hover {
-    background-position: right center;
-    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    /* background-position: right center;
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); */
+    background-color: yellow;
 }
