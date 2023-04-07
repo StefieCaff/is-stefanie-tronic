@@ -1,2 +1,0 @@
-[document.querySelector("#question-btn"),document.querySelector("#sticky-btn"),document.querySelector("#plane-btn"),document.querySelector("#plane-js"),document.querySelector("#sticky-js"),document.querySelector("#question-js")][0].addEventListener("click",(function(){planePage.classList.add("hidden"),stickyPage.classList.add("hidden"),questionBtn.classList.add("hidden"),stickyBtn.classList.remove("hidden")}));
-//# sourceMappingURL=index.a79ac99f.js.map
