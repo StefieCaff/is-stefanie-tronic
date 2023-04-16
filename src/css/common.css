@@ -53,19 +53,22 @@ button styling
 
 .button-container {
     position: absolute;
-    right: 30;
-    top: 30;
+    left: 100;
+    top: 50;
+    margin-top: 100px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
     .button-container {
-        right: 20%;
+        top: -47;
+        left: unset;
+        right: 20;
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
     .button-container {
-        right: 30;
+        top: -75;
     }
 }
 
@@ -73,7 +76,7 @@ button styling
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 15px;
     cursor: pointer;
     border: none;
     font-family: 'Rajdhani', sans-serif;
@@ -102,9 +105,21 @@ plane styling
 .frame {
     width: 500px;
     height: auto;
-    margin: 15% auto 0;
+    margin: 90% auto 0;
     position: absolute;
     width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .frame {
+        margin: 70% auto 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .frame {
+        margin: 30% auto 0;
+    }
 }
 
 svg {
@@ -352,7 +367,7 @@ question paper styling
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
- 
+    margin-top: 130px;
     background: #fff;
     min-width: 300px;
     width: 85%;
@@ -376,7 +391,7 @@ Sticky note styling
 .sticky-container {
     max-width: 270px;
     position: relative;
-    top: 150;
+    top: 250;
     left: 20;
     transform: rotate(-3deg);
     opacity: 1;
@@ -392,28 +407,21 @@ Sticky note styling
 @media screen and (min-width: 500px) {
     .sticky-container {
         left: 25%;
-        top: 120;
+        top: 300;
     }
 }
 
 @media screen and (min-width:768px) {
     .sticky-container {
         left: 35%;
-        top: 150;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .sticky-container {
-        left: 25%;
-        top: 120;
+        top: 180;
     }
 }
 
 .sticky-outer {
     display: flex;
     padding-top: 92.5925926%;
-    position: relative;
+    position: absolute;
     width: 100%;
 }
 
@@ -443,7 +451,7 @@ Shadow behind the sticky note
 The sticky note itself
 */
 .sticky-content {
-    position: relative;
+    position: absolute;
     z-index: 0;
     background: rgb(215, 227, 230);
     background: radial-gradient(circle, rgba(215, 227, 230, 1) 0%, rgba(209, 218, 218, 1) 50%, rgba(208, 228, 228, 1) 100%);
@@ -583,23 +591,44 @@ h3{
 
 .list {
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
  }
+
 
  .item {
     margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ @media screen and (min-width: 480px) {
+     .item {
+        align-items: flex-start;
+     }
  }
 
 .item-description {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
- 
 
- .sound {
-    margin: 0 0 5px 30px;
+.sound {
+    margin: 5px 40px;
     color: rgba(60, 59, 59, 0.568);
     font-weight: 600;
     font-size: 18px;
- }
+}
+
+figure {
+  margin: 20px 10px;
+}
+
+@media screen and (min-width: 480px) {
+    figure {
+        margin: 20px;
+    }
+}
 
  /*
  link styling
@@ -608,6 +637,8 @@ h3{
  .questions-link {
     padding: 4px 8px;
     margin: 3px;
+    width: 170px;
+    text-align: center;
     text-decoration: none;
     color: #89a8db;
     border: .5px solid;
@@ -619,8 +650,8 @@ h3{
 
  .questions-link:hover,
  .questions-link:focus {
-  color: white;
-  background-color: #89a8db;
-  border: none;
-box-shadow: 0 0 20px #b4b2b2b3;
+    color: white;
+    background-color: #89a8db;
+    border: none;
+    box-shadow: 0 0 20px #b4b2b2b3;
  }
