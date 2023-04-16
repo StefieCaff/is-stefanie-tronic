@@ -368,6 +368,7 @@ question paper styling
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 130px;
+    margin-bottom: 30px;
     background: #fff;
     min-width: 300px;
     width: 85%;
@@ -646,7 +647,7 @@ figure {
     box-shadow: 0 0 20px #eee;
     cursor: pointer;
     transition: background-color .9s, color .9s, border .9s, box-shadow .9s;
- }
+}
 
  .questions-link:hover,
  .questions-link:focus {
@@ -654,4 +655,8 @@ figure {
     background-color: #89a8db;
     border: none;
     box-shadow: 0 0 20px #b4b2b2b3;
- }
+}
+
+.bottom {
+    margin-bottom: 30px;
+}
