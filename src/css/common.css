@@ -42,6 +42,11 @@ img {
     margin-left: -15px;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /*
 button styling
 */
@@ -69,7 +74,7 @@ button styling
     align-items: center;
     justify-content: center;
     padding: 25px;
-    /* width: 175px; */
+    cursor: pointer;
     border: none;
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
@@ -547,12 +552,23 @@ airplane folds
 }
 
 /*
-text styling
+text and sound styling
 */
 
 h1{
-    margin: 10px 0 0 10px;
+    margin: 50px 0 30px 30px;
 }
+
+h3{
+    margin: 0 0 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.intro {
+    margin: 20px 30px;
+}
+
 .question {
     font-size: 18px;
 }
@@ -565,6 +581,46 @@ h1{
     text-decoration: underline;
  }
 
+.list {
+    margin-left: 20px;
+ }
+
  .item {
     margin: 10px 0 20px 0;
+ }
+
+.item-description {
+    margin-bottom: 10px;
+}
+ 
+
+ .sound {
+    margin: 0 0 5px 30px;
+    color: rgba(60, 59, 59, 0.568);
+    font-weight: 600;
+    font-size: 18px;
+ }
+
+ /*
+ link styling
+ */
+
+ .questions-link {
+    padding: 4px 8px;
+    margin: 3px;
+    text-decoration: none;
+    color: #89a8db;
+    border: .5px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #eee;
+    cursor: pointer;
+    transition: background-color .9s, color .9s, border .9s, box-shadow .9s;
+ }
+
+ .questions-link:hover,
+ .questions-link:focus {
+  color: white;
+  background-color: #89a8db;
+  border: none;
+box-shadow: 0 0 20px #b4b2b2b3;
  }
