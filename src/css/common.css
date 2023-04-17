@@ -391,7 +391,7 @@ Sticky note styling
 .sticky-container {
     max-width: 270px;
     position: relative;
-    top: 250;
+    top: 210;
     left: 20;
     transform: rotate(-3deg);
     opacity: 1;
