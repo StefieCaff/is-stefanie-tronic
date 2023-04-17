@@ -1,4 +1,4 @@
-// DOM Refs
+// DOM Refs object
 
 const refs = {
     questionBtn: document.querySelector('#question-btn-js'),
@@ -14,33 +14,33 @@ const refs = {
     stickyPage: document.querySelector('#sticky-js')
 };
 
-// helper functions to add and remove elements from DOM
+/* helper functions to add and remove elements from DOM */
 
+//sets up page one
 const navToQuestionPage = () => {
     refs.plane.classList.add('hidden');
     refs.questionBtnWrapper.classList.add('hidden');
     refs.stickyBtnWrapper.classList.remove('hidden');
     refs.questionPage.classList.remove('hidden');
-    console.log('test');
 };
 
+//sets up page two
 const navToStickyPage = () => {
     refs.stickyBtnWrapper.classList.add('hidden');
     refs.questionPage.classList.add('hidden');
     refs.planeBtnWrapper.classList.remove('hidden');
     refs.stickyPage.classList.remove('hidden');
-    console.log('test two');
 };
 
+//sets up page three
 const navToPlanePage = () => {
     refs.planeBtnWrapper.classList.add('hidden');
     refs.stickyPage.classList.add('hidden');
     refs.questionBtnWrapper.classList.remove('hidden');
     refs.plane.classList.remove('hidden');
-    console.log('test three');
 };
 
-// // event listeners
+/*event listeners */
 
 refs.questionBtn.addEventListener('click', navToQuestionPage);
 

@@ -53,20 +53,19 @@ button styling
 
 .button-container {
     position: absolute;
-    left: 100;
-    top: 50;
-    margin-top: 100px;
+    left: 10;
+    top: 125;
 }
 
 @media screen and (min-width: 480px) {
     .button-container {
-        top: -47;
+        top: 20;
         left: unset;
         right: 20;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768) {
     .button-container {
         top: -75;
     }
@@ -427,7 +426,7 @@ Sticky note styling
 }
 
 .sticky {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -622,14 +621,17 @@ h3{
 }
 
 figure {
-  margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     figure {
         margin: 20px;
     }
-}
+} */
 
  /*
  link styling
