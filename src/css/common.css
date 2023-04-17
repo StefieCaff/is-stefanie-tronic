@@ -115,6 +115,12 @@ plane styling
     }
 }
 
+@media screen and (min-width: 500px) {
+    .frame {
+        margin: 30% auto 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .frame {
         margin: 30% auto 0;
@@ -391,7 +397,7 @@ Sticky note styling
 .sticky-container {
     max-width: 270px;
     position: relative;
-    top: 210;
+    top: 200;
     left: 20;
     transform: rotate(-3deg);
     opacity: 1;
@@ -407,7 +413,7 @@ Sticky note styling
 @media screen and (min-width: 500px) {
     .sticky-container {
         left: 25%;
-        top: 300;
+        top: 190;
     }
 }
 
