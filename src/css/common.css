@@ -421,12 +421,12 @@ Sticky note styling
 .sticky-outer {
     display: flex;
     padding-top: 92.5925926%;
-    position: absolute;
+    position: relative;
     width: 100%;
 }
 
 .sticky {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
